@@ -1,0 +1,117 @@
+source code:- http://bit.ly/3Z4yzqW
+component work: high spoeed view rendering
+
+Life cycle of components system defind events
+----------------------------------------------
+mounting : component intialize and add to the page like constructor
+Update : page state changes 
+Unmounting: Removing the component from page
+
+events
+----------------
+mounting events:- constructor, static getDerivedStateFromProps(hook),render,componentdidmount
+--------------------
+Update events: static getDerivedStateFromProps(hook),shouldcompoentUpdate,render,getSnapshotbeforeupdate(compulsary return null other wise application will 
+--------------
+not procedure next step),componetdidupdate(root.unmount remove the page completely)
+
+unMount:-simply remove the compoent  
+-------------
+
+submithandler(event)->event.preventdefault() prevent the action item default properties and and sumit the form to server using server event
+this.setstate([fieldName]:fieldvalue):-fieldName control value i am assigning fieldvalue
+
+quardinate rate position system
+
+media querry using below options for-- impliment response web design API- using boostrap
+-----------------
+
+lg-4 large size
+md:4 medium size screen
+Xm-4 tablet
+xs-4 mobile
+
+content delivary network:- Across the globleuser is used to develop the application cloud environment provide some libraries we can use
+-------------------------------
+
+google->bootstrapCDN ->officialCDN and font awasomebootstrapcdn
+applying boostrap :-reddy setup classes and reponsive web design
+
+Node.js:-Writing server side code using javascript
+Postback: 1 request and 1 response called post back
+
+Routing API:-Request is not calling routing address directly ,it will call intermediate layer or frame work called Routing API(it will call two reasons
+------------
+Performance improvement and search engine optimization
+
+routing library:- Reactive router split into two parts: Reactive native dom and reactive router native
+
+
+Manage router have 3 classes:-Browser Router,hash router,memory router
+
+Router tag exact is equivalent to domain name in url http://www.amanon.com
+two types of routing can do in application static and dynamic [id] replace id with value using this sqare brackets
+
+react js is not compiled its interpreted
+
+Navigation link: just change the colour of the link while clicking or selecting.
+
+Service driven architecture:- any type of service(like java,dotnet.. API) we can consume in the react application
+
+* use params is in functional component not class component
+
+Redux
+-------------------------------
+state:- certain point of time it will hold the value and change value 
+redux:-single storage management process called redux(bank) stored data on client system
+ANsaisql:used to get data from sql database
+redux interact with 4 pillors 1)intial trigger(submit check)->2)meet bank manager->3)branch manager dispath check to right department->4) actual work
+1.view 2.action 3.dispather 4. reducer
+redux impliment two ways ,redux ,redux tool kit(latest version)
+state is read only will not changen changes through action and dispather,reducer
+in redux what we call table slice
+
+functions
+--------------------------
+function is java is loosely coupled and convert type to upcosting or Promise type(promise) promise objects are 3 types of return in promise object a.Data b.Error c.Notification
+in asynchronous programing,default programing is asyncronous programing
+
+prioority banker added high value added service called technically using asynchronous programming
+
+middle layer: sits in between lwo application layers(between two existing blocks) e: saga middleware between react and redux store application software name redux-saga
+
+convert common function to generator function or saga using * symbol function*
+multiple yield returns in generator function return more than one value return next value using next key word x.next()
+
+how many pillors for saga: 3 pillors root(take note)->watcher(waitying to worker should take action)->worker(real work)
+
+difference between saga and promisses(saga is the function and return promises)
+
+hook
+----------
+life cycle events are adding to the functional component called life cycle hook
+useState() hook not only change the state it also maintain the previous state value
+useeffect() hook will do all these life cycle event activity(componnet didmount(),componnetdidupdate(),componentwillunmount()) practically used to get data from RESAT full services
+useContext() nextedfunctions need to use in functions using useContext()(sending the component where ever you want)parent and child relationship functions
+
+GRAPHQL
+-----------
+simplified communicatation with single facade and will do curd operations
+facade pattern: is using impliment single layer to interact urls and network changes from react and restfull services
+three componnets are in Graphql 1.query parser(query format and parsing) 2.schema(validation) 3.resolver function(connect api, db)
+
+data types supporter: Scalar,object ,query,mutation,enum
+type modifiers: int,float,string,id,boolean
+string!(! symbol is using will not allow null values)
+we need to configure the bapplication have to install graphql server
+graphql application:- is the service side nodejs pure server application(node js,express web,graphql servers) like a full stack development application
+graphql benifit is type safety
+----------------------------------------
+React JS testing 
+----------------------------
+
+Jest and engyme: Jest is testing framework ,assertion library and miocking library
+
+Engyme: Testing utility for react make eassier to assert ,monipulate and traverse your react component
+npm run test(run the test project)
+update the snapshot click 'U'
